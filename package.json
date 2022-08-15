@@ -4,7 +4,7 @@
   "description": "Trabajo del Curso de Desarrollo Web del Programa Carrera de Desarrollo Full Stack CoderHouse. Sexto Desafío Entregable Aplicando SASS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compilar:sass": "sass --watch src/scss:assets/css"
   },
   "repository": {
     "type": "git",
