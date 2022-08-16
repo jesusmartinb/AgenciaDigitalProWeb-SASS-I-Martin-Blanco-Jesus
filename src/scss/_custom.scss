@@ -26,5 +26,19 @@ $danger: $rojo;
 $warning: $azul;
 $success: $verde;
 
+$body-bg: $primary;
+$body-color: $dark;
+
+//Tipografía
+$body-font: 'Lato', sans-serif;
+$headings-font: 'Roboto Slab', serif;
+
+$font-family-sans-serif: $body-font;
+
+$font-size: 62.5%;
+
+$font-size-root: $font-size;
+$font-size-base: 2rem;
+
 // Importar Bootstrap
 @forward '../../node_modules/bootstrap/scss/bootstrap.scss';
