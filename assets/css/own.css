@@ -19,7 +19,7 @@ h4 {
     font-family: 'Roboto Slab', serif;
 } */
 
-h1 {
+/* h1 {
     font-size: 6rem;
     font-weight: 900;
     text-align: center;
@@ -39,9 +39,9 @@ h3 {
 h4 {
     font-size: 2.8rem;
     font-weight: 200;
-}
+} */
 
-.header__redes .fab::before,
+/* .header__redes .fab::before,
 .footer__redes .fab::before {
     font-size: 4rem;
 }
@@ -60,9 +60,9 @@ h4 {
     background: -webkit-linear-gradient(45deg, #f9ed32 0%, #ee2a7b 68%, #ee2a7b 68%, #002aff 100%);
     background: linear-gradient(45deg, #f9ed32 0%, #ee2a7b 68%, #ee2a7b 68%, #002aff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9ed32', endColorstr='#002aff', GradientType=1);
-}
+} */
 
-.dropdown-menu {
+/* .dropdown-menu {
     --bs-dropdown-font-size: 2rem;
     --bs-dropdown-bg: aliceblue;
 }
@@ -88,9 +88,9 @@ h4 {
 
 .dropdown-toggle:hover::after {
     transform: rotate(-90deg);
-}
+} */
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .dropdown-toggle::after {
         color: aliceblue;
     }
@@ -102,9 +102,9 @@ h4 {
     .navbar-expand-md .navbar-nav .dropdown-menu {
         top: 4rem;
     }
-}
+} */
 
-.offcanvas {
+/* .offcanvas {
     --bs-offcanvas-width: 305px;
     background-color: aliceblue;
 }
@@ -118,7 +118,7 @@ h4 {
     color: black;
     display: block;
     text-align: center;
-}
+} */
 
 .slogan {
     font-weight: 900;
