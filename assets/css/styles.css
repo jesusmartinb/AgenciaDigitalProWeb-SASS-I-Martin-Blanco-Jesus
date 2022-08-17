@@ -10845,22 +10845,27 @@ h4 {
 .dropdown-toggle::after {
   color: rgba(0, 0, 0, 0.55);
 }
+@media (min-width: 768px) {
+  .dropdown-toggle::after {
+    color: aliceblue;
+  }
+}
 
 .dropdown-toggle:hover::after {
   transform: rotate(-90deg);
 }
-
-@media screen and (min-width: 768px) {
-  .dropdown-toggle::after {
-    color: aliceblue;
-  }
+@media (min-width: 768px) {
   .dropdown-toggle:hover::after {
     transform: none;
   }
+}
+
+@media (min-width: 768px) {
   .navbar-expand-md .navbar-nav .dropdown-menu {
     top: 4rem;
   }
 }
+
 .offcanvas {
   --bs-offcanvas-width: 30.5rem;
   background-color: aliceblue;

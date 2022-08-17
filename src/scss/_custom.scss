@@ -59,5 +59,15 @@ $font-sizes: (
 $font-weight-lighter:         200;
 $font-weight-bolder:          900;
 
+// Grid breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 425px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1440px,
+  xxl: 1600px
+);
+
 // Importar Bootstrap
 @forward '../../node_modules/bootstrap/scss/bootstrap.scss';

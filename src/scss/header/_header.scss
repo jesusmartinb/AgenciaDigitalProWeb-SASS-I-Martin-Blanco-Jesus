@@ -92,25 +92,28 @@ h4 {
 
 .dropdown-toggle::after {
     color: $black-55;
+    @include  media-breakpoint-up(md) {
+        color: $primary;
+    }
 }
 
 .dropdown-toggle:hover::after {
     transform: rotate(-90deg);
-}
-
-@media screen and (min-width: 768px) {
-    .dropdown-toggle::after {
-        color: $primary;
-    }
-
-    .dropdown-toggle:hover::after {
+    @include  media-breakpoint-up(md) {
         transform: none;
     }
+}
 
-    .navbar-expand-md .navbar-nav .dropdown-menu {
-        top: $font-size-base * 2;
+.navbar-expand-md {
+    .navbar-nav {
+        .dropdown-menu {
+            @include  media-breakpoint-up(md) {
+                top: $font-size-base * 2;
+            }
+        }
     }
 }
+
 
 .offcanvas {
     --bs-offcanvas-width: 30.5rem;
