@@ -227,12 +227,12 @@ h4 {
     }
 } */
 
-.faqs {
+/* .faqs {
     max-width: 750px;
     margin: 0 auto;
 }
 
-/* Acordeon */
+ Acordeon
 .acordeon {
     text-align: left;
 }
@@ -377,7 +377,7 @@ p,
 .faqs .acordeon__item input[type=checkbox]:checked~i:after,
 .cronology .acordeon__item input[type=checkbox]:checked~i:after {
     transform: translate(-2px, 0) rotate(-45deg);
-}
+} */
 
 /* Fin Acordeon */
 
