@@ -30,10 +30,8 @@ $body-bg: $primary;
 $body-color: $dark;
 
 //Tipografía
-$body-font: 'Lato', sans-serif;
+$font-family-sans-serif: 'Lato', sans-serif;
 $headings-font-family: 'Roboto Slab', serif;
-
-$font-family-sans-serif: $body-font;
 
 $font-size: 62.5%;
 
@@ -70,4 +68,4 @@ $grid-breakpoints: (
 );
 
 // Importar Bootstrap
-@forward '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
