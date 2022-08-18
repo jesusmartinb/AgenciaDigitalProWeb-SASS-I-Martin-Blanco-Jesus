@@ -1,5 +1,5 @@
 @use '../custom' as *;
-@use '../utils/mixins';
+@use '../utils/mixins' as m;
 
 .slogan {
 	font-weight: $font-weight-bolder;
@@ -8,9 +8,77 @@
 
 .contactanos {
 	min-height: 50rem;
-	@include mixins.bgImage('https://cyberdietoterapia.com/images/background01.jpg', $white-35);
+	@include m.bgImage('https://cyberdietoterapia.com/images/background01.jpg', $white-35);
 	@include media-breakpoint-up(md) {
-			@include mixins.bgImage('https://cyberdietoterapia.com/images/background01.jpg', $black-35);
+			@include m.bgImage('https://cyberdietoterapia.com/images/background01.jpg', $black-35);
 	}
 }
 
+.image {
+	img {
+		max-height: 795px;
+	}
+}
+
+.fases {
+	overflow-x: hidden;
+
+	@include media-breakpoint-up(lg) {
+		%punto {
+			content: "";
+			position: absolute;
+			top: -3px;
+			width: $font-size-base;
+			height: $font-size-base;
+			border-radius: 50%;
+			background-color: $azul;
+			z-index: 50;
+		}
+
+		article {
+			position: relative;
+		}
+
+		.rows {
+			text-align: right;
+			padding-right: $font-size-base * 2;
+			border-right: 1px solid $azul-marino;
+
+			&::after {
+				@extend %punto;
+				right: -10px;
+			}
+		}
+
+		.rows-reverse {
+			justify-self: end;
+			padding-left: $font-size-base * 2;
+			border-left: 1px solid $azul-marino;
+
+			&::before {
+				@extend %punto;
+				left: -10px;
+			}
+		}
+
+		.image {
+			@include m.bgImage('https://cyberdietoterapia.com/images/img02.jpg', transparent);
+
+			img {
+				display: none;
+			}
+		}
+	}
+}
+
+.razones {
+	@include media-breakpoint-up(lg) {
+		.image {
+			@include m.bgImage('https://cyberdietoterapia.com/images/img01.jpg', transparent);
+
+			img {
+				display: none;;
+			}
+		}
+	}
+}

@@ -11100,4 +11100,64 @@ h4 {
   }
 }
 
+.image img {
+  max-height: 795px;
+}
+
+.fases {
+  overflow-x: hidden;
+}
+@media (min-width: 1024px) {
+  .fases .rows-reverse::before, .fases .rows::after {
+    content: "";
+    position: absolute;
+    top: -3px;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #179cf0;
+    z-index: 50;
+  }
+  .fases article {
+    position: relative;
+  }
+  .fases .rows {
+    text-align: right;
+    padding-right: 4rem;
+    border-right: 1px solid rgb(12, 58, 104);
+  }
+  .fases .rows::after {
+    right: -10px;
+  }
+  .fases .rows-reverse {
+    justify-self: end;
+    padding-left: 4rem;
+    border-left: 1px solid rgb(12, 58, 104);
+  }
+  .fases .rows-reverse::before {
+    left: -10px;
+  }
+  .fases .image {
+    background-image: linear-gradient(transparent 0%, transparent 100%), url("https://cyberdietoterapia.com/images/img02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+  }
+  .fases .image img {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .razones .image {
+    background-image: linear-gradient(transparent 0%, transparent 100%), url("https://cyberdietoterapia.com/images/img01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+  }
+  .razones .image img {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
