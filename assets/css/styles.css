@@ -11046,4 +11046,25 @@ h4 {
   text-align: center;
 }
 
+.slogan {
+  font-weight: 900;
+  word-spacing: 0.5rem;
+}
+
+.contactanos {
+  min-height: 50rem;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%), url("https://cyberdietoterapia.com/images/background01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+}
+@media (min-width: 768px) {
+  .contactanos {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), url("https://cyberdietoterapia.com/images/background01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
