@@ -382,7 +382,7 @@ p,
 /* Fin Acordeon */
 
 /* Footer */
-.footer {
+/* .footer {
     background-color: black;
     color: aliceblue;
 }
@@ -403,7 +403,7 @@ p,
     font-size: 1.6rem;
 }
 
-/* Footer Media Queries */
+Footer Media Queries
 @media screen and (min-width: 768px) {
     .footer__menu ul {
         list-style-type: none;
@@ -436,7 +436,7 @@ p,
     .footer__logo a {
         left: 176rem;
     }
-}
+} */
 
 /* Fin Footer */
 

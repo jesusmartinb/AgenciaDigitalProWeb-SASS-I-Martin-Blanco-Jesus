@@ -11295,4 +11295,58 @@ p {
   transform: translate(-2px, 0) rotate(-45deg);
 }
 
+.footer {
+  background-color: #000000;
+  color: aliceblue;
+}
+
+.footer__redes .fa-instagram-square {
+  color: #000000;
+}
+
+@media (min-width: 1024px) {
+  .footer__logo {
+    position: relative !important;
+  }
+}
+.footer__logo a {
+  color: aliceblue;
+}
+@media (min-width: 1024px) {
+  .footer__logo a {
+    position: absolute !important;
+    top: -12rem;
+    left: 82.5rem;
+  }
+}
+@media (min-width: 1440px) {
+  .footer__logo a {
+    left: 124.5rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .footer__logo a {
+    left: 176rem;
+  }
+}
+
+.footer__redes-siguenos {
+  font-size: 2.4rem;
+}
+
+.copy {
+  font-size: 1.6rem;
+}
+
+@media (min-width: 768px) {
+  .footer__menu ul {
+    list-style-type: none;
+  }
+}
+@media (min-width: 768px) {
+  .footer__menu a {
+    color: aliceblue;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
