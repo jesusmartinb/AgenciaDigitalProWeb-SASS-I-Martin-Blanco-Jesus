@@ -441,9 +441,9 @@ Footer Media Queries
 /* Fin Footer */
 
 /* Animaciones, transiciones, transformaciones y gradientes */
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
 
-    /* Transición de color y background en función de posición scroll */
+    /* Transición de color y background en función de posición scroll
     #index.black,
     #index .black,
     #agencia.black,
@@ -479,14 +479,14 @@ Footer Media Queries
     }
 }
 
-/* Animaciones con la librería Animate.css V4 */
+/* Animaciones con la librería Animate.css V4 
 @media screen and (min-width: 1920px) {
     .hidden {
         visibility: hidden;
     }
 }
 
-/* Animación de degradado */
+/* Animación de degradado
 .planes,
 #contacto .row {
     background: linear-gradient(45deg, #007d81, #0075b9, #00ff5e);
@@ -506,7 +506,7 @@ Footer Media Queries
     to {
         background-position: 0 50%
     }
-}
+} */
 
 /* Página agencia.html */
 .hero {
