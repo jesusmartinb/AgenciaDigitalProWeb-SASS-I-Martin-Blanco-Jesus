@@ -11761,6 +11761,158 @@ p {
   }
 }
 
+.container-fluid {
+  padding: 0;
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
+@media (min-width: 1024px) {
+  .row hr {
+    display: none;
+  }
+}
+
+#marketing .column2,
+#marketing .column1, #publicidad .column2,
+#publicidad .column3, #posicionamiento .column2,
+#posicionamiento .column1, #optimiza .column2, #desarrollo .column2,
+#desarrollo .column1, #diseno .column2,
+#diseno .column3 {
+  padding: 2rem;
+}
+@media (min-width: 1440px) {
+  #marketing .column2,
+#marketing .column1, #publicidad .column2,
+#publicidad .column3, #posicionamiento .column2,
+#posicionamiento .column1, #optimiza .column2, #desarrollo .column2,
+#desarrollo .column1, #diseno .column2,
+#diseno .column3 {
+    padding: 5rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #marketing .column2,
+#marketing .column1, #publicidad .column2,
+#publicidad .column3, #posicionamiento .column2,
+#posicionamiento .column1, #optimiza .column2, #desarrollo .column2,
+#desarrollo .column1, #diseno .column2,
+#diseno .column3 {
+    padding: 10rem;
+  }
+}
+
+#diseno .hero {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%), url("https://cyberdietoterapia.com/images/background-diseno.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+}
+@media (min-width: 1024px) {
+  #diseno .column1 {
+    background-image: linear-gradient(transparent 0%, transparent 100%), url("https://cyberdietoterapia.com/images/img04.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+  }
+}
+#desarrollo .hero {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%), url("https://cyberdietoterapia.com/images/background-desarrollo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+}
+@media (min-width: 1024px) {
+  #desarrollo .column3 {
+    background-image: linear-gradient(transparent 0%, transparent 100%), url("https://cyberdietoterapia.com/images/img05.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+  }
+}
+#optimiza .hero {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%), url("https://cyberdietoterapia.com/images/background-optimi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+}
+@media (min-width: 1024px) {
+  #optimiza .column1 {
+    background-image: linear-gradient(transparent 0%, transparent 100%), url("https://cyberdietoterapia.com/images/img06.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+  }
+}
+#posicionamiento .hero {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%), url("https://cyberdietoterapia.com/images/background-posiciona.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+}
+@media (min-width: 1024px) {
+  #posicionamiento .column3 {
+    background-image: linear-gradient(transparent 0%, transparent 100%), url("https://cyberdietoterapia.com/images/img07.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+  }
+}
+#publicidad .hero {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%), url("https://cyberdietoterapia.com/images/background-publi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+}
+@media (min-width: 1024px) {
+  #publicidad .column1 {
+    background-image: linear-gradient(transparent 0%, transparent 100%), url("https://cyberdietoterapia.com/images/img08.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+  }
+}
+#marketing .hero {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%), url("https://cyberdietoterapia.com/images/background-marketing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+}
+@media (min-width: 1024px) {
+  #marketing .column3 {
+    background-image: linear-gradient(transparent 0%, transparent 100%), url("https://cyberdietoterapia.com/images/img09.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+  }
+}
+hr {
+  padding: 0 8rem !important;
+  width: 0% !important;
+  opacity: 1;
+  margin: 2rem auto;
+}
+
+@media (min-width: 1024px) {
+  .column2 p:first-child,
+.column3 p:first-child {
+    margin-top: 8rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  #servicios .main h3,
+#servicios .main p {
+    margin: 5rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #servicios .main {
+    margin: 10rem 0;
+  }
+}
+
 .footer {
   background-color: #000000;
   color: aliceblue;

@@ -928,7 +928,7 @@ label {
 /* Fin Formularios */
 
 /* Servicios */
-.container-fluid {
+/* .container-fluid {
     padding: 0;
 }
 
@@ -958,16 +958,16 @@ label {
 
 #marketing .hero {
     background-image: url(https://cyberdietoterapia.com/images/background-marketing.jpg);
-}
+} */
 
-hr {
+/* hr {
     padding: 0 8rem !important;
     width: 0% !important;
     opacity: 1;
     margin: 2rem auto;
-}
+} */
 
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
 
     .column2 p:first-child,
     .column3 p:first-child {
@@ -1071,7 +1071,7 @@ hr {
     #servicios .main p {
         margin: 10rem 0;
     }
-}
+} */
 
 /* Fin Servicios */
 
