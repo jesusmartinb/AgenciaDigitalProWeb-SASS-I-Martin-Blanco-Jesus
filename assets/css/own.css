@@ -579,7 +579,7 @@ Footer Media Queries
 } */
 
 /* Cards equipo */
-.card {
+/* .card {
     width: 310px;
     min-height: 570px;
     overflow: hidden;
@@ -617,12 +617,12 @@ Footer Media Queries
 
 .citation {
     font-style: italic;
-}
+} */
 
 /* Fin Cards Equipo */
 
 /* Animación slider cards-equipo y cards-testimonios*/
-.cards-equipo,
+/* .cards-equipo,
 .cards-testimonios {
     width: 310px;
     height: auto;
@@ -799,7 +799,7 @@ Footer Media Queries
     .card-content {
         min-height: 410px;
     }
-}
+} */
 
 /* Fin Animación slider cards-equipo y cards-testimonios */
 

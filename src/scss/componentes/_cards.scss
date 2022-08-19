@@ -1,0 +1,48 @@
+@use '../custom' as *;
+
+/* Cards equipo - Cards Animaciones*/
+.card {
+	width: 31rem;
+	min-height: 57rem;
+	overflow: hidden;
+
+	img {
+		height: 31rem;
+	}
+
+	p {
+		margin: 1rem 0;
+	}
+
+	.cargo {
+		font-variant: small-caps;
+	}
+
+	.nombre {
+		font-weight: $font-weight-bold;
+	}
+}
+
+.card-content {
+	min-height: 38rem;
+}
+
+#testimonios {
+	.card {
+		.image {
+			width: 31rem;
+			height: 31rem;
+			overflow: hidden;
+		}
+	}
+
+	.image {
+		img {
+			width: 100%;
+		}
+	}
+}
+
+.citation {
+	font-style: italic;
+}

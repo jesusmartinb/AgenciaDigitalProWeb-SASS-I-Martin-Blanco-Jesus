@@ -69,3 +69,178 @@
 		background-position: 0 50%
 	}
 }
+
+/* Animación slider cards-equipo y cards-testimonios*/
+.cards-equipo,
+.cards-testimonios {
+	width: 31rem;
+	height: auto;
+	margin: 1rem auto 0;
+	overflow: hidden;
+
+	@include media-breakpoint-up(lg) {
+		width: 65rem;
+	}
+
+	li {
+		width: 31rem;
+		list-style: none;
+
+		@include media-breakpoint-up(lg) {
+			width: 50%;
+		}
+	}
+
+	.card {
+		width: 100%;
+
+		@include media-breakpoint-up(lg) {
+			width: 90%;
+		}
+	}
+}
+
+%cards-ul {
+	display: flex;
+	padding: 0;
+}
+
+.cards-equipo ul {
+	@extend %cards-ul;
+	width: 400%;
+	animation: slide 30s infinite alternate ease-in-out;
+
+	@include media-breakpoint-up(lg) {
+		width: 200%;
+		animation: slide3 30s infinite alternate ease-in-out;
+	}
+}
+
+.cards-testimonios ul {
+	@extend %cards-ul;
+	width: 300%;
+	animation: slide2 36s infinite alternate ease-in-out;
+
+	@include media-breakpoint-up(lg) {
+		width: 150%;
+		animation: slide4 36s infinite alternate ease-in-out;
+	}
+}
+
+.card-content {
+	@include media-breakpoint-up(lg) {
+		min-height: 41rem;
+	}
+}
+
+@keyframes slide4 {
+	0% {
+		margin-left: 0;
+	}
+
+	30% {
+		margin-left: 0;
+	}
+
+	33% {
+		margin-left: -50%;
+	}
+
+	63% {
+		margin-left: -50%;
+	}
+
+	66% {
+		margin-left: 0%;
+	}
+
+	100% {
+		margin-left: 0%;
+	}
+}
+
+@keyframes slide3 {
+	0% {
+		margin-left: 0;
+	}
+
+	30% {
+		margin-left: 0;
+	}
+
+	33% {
+		margin-left: -50%;
+	}
+
+	63% {
+		margin-left: -50%;
+	}
+
+	66% {
+		margin-left: -100%;
+	}
+
+	100% {
+		margin-left: -100%;
+	}
+}
+
+@keyframes slide2 {
+	0% {
+		margin-left: 0;
+	}
+
+	30% {
+		margin-left: 0;
+	}
+
+	33% {
+		margin-left: -100%;
+	}
+
+	63% {
+		margin-left: -100%;
+	}
+
+	66% {
+		margin-left: -200%;
+	}
+
+	100% {
+		margin-left: -200%;
+	}
+}
+
+@keyframes slide {
+	0% {
+		margin-left: 0;
+	}
+
+	20% {
+		margin-left: 0;
+	}
+
+	25% {
+		margin-left: -100%;
+	}
+
+	45% {
+		margin-left: -100%;
+	}
+
+	50% {
+		margin-left: -200%;
+	}
+
+	70% {
+		margin-left: -200%;
+	}
+
+	75% {
+		margin-left: -300%;
+	}
+
+	100% {
+		margin-left: -300%;
+	}
+}
