@@ -57,13 +57,14 @@ label {
 	@include media-breakpoint-up(md) {
 		display: flex;
 		justify-content: space-evenly;
+		
+		div {
+			min-width: 34.4rem;
+			width: 49%;
+			max-width: 48.2rem;
+		}
 	}
 
-	div {
-		min-width: 34.4rem;
-		width: 49%;
-		max-width: 48.2rem;
-	}
 }
 
 #contacto {
