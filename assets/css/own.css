@@ -509,7 +509,7 @@ Footer Media Queries
 } */
 
 /* Página agencia.html */
-.hero {
+/* .hero {
     min-height: 50rem;
     background-repeat: no-repeat;
     background-size: cover;
@@ -521,13 +521,13 @@ Footer Media Queries
 
 #sobre .hero {
     background-image: url(https://cyberdietoterapia.com/images/background-nosotros.jpg);
-}
+} */
 
-#equipo .hero {
+/* #equipo .hero {
     background-image: url(https://cyberdietoterapia.com/images/background-equipo.jpg);
-}
+} */
 
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
     .cronology {
         min-width: 768px;
     }
@@ -576,7 +576,7 @@ Footer Media Queries
         border-right: 2px solid rgb(12, 58, 104);
         margin-right: 20%;
     }
-}
+} */
 
 /* Cards equipo */
 .card {
@@ -803,9 +803,9 @@ Footer Media Queries
 
 /* Fin Animación slider cards-equipo y cards-testimonios */
 
-#nuevo .hero {
+/* #nuevo .hero {
     background-image: url(https://cyberdietoterapia.com/images/background-talento.jpg);
-}
+} */
 
 @media screen and (min-width: 992px) {
     #nuevo .image {

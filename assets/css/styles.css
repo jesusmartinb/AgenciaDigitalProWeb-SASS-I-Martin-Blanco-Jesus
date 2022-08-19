@@ -11356,6 +11356,101 @@ p {
   transform: translate(-2px, 0) rotate(-45deg);
 }
 
+.hero {
+  min-height: 50rem;
+}
+.hero h2 {
+  padding-top: 6rem;
+}
+
+#sobre .hero {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%), url("https://cyberdietoterapia.com/images/background-nosotros.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+}
+@media (min-width: 768px) {
+  #sobre .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), url("https://cyberdietoterapia.com/images/background-nosotros.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+  }
+}
+
+#equipo .hero {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%), url("https://cyberdietoterapia.com/images/background-equipo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+}
+
+#nuevo .hero {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%), url("https://cyberdietoterapia.com/images/background-talento.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+}
+
+@media (min-width: 1024px) {
+  .cronology {
+    min-width: 76.8rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .cronology {
+    min-width: 102.4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cards-compromisos {
+    column-gap: 4rem;
+  }
+}
+@media (min-width: 1440px) {
+  .cards-compromisos {
+    column-gap: 8rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .cards-compromisos {
+    column-gap: 12rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .quieres-trabajar {
+    padding-right: 20%;
+  }
+}
+@media (min-width: 1440px) {
+  .quieres-trabajar {
+    padding-right: 30%;
+    flex-shrink: 1.5;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .quieres-trabajar {
+    padding-right: 10%;
+    border-right: 2px solid rgb(12, 58, 104);
+    margin-right: 20%;
+  }
+}
+
+@media (min-width: 1024px) {
+  #servicios .main .image img {
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .history {
+    padding-right: 31rem;
+    border-right: 2px solid rgb(12, 58, 104);
+    margin-right: 29rem;
+  }
+}
 .footer {
   background-color: #000000;
   color: aliceblue;
