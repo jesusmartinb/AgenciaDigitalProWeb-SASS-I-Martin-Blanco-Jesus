@@ -807,7 +807,7 @@ Footer Media Queries
     background-image: url(https://cyberdietoterapia.com/images/background-talento.jpg);
 } */
 
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
     #nuevo .image {
         background-image: url(https://cyberdietoterapia.com/images/img03.jpg);
         background-repeat: no-repeat;
@@ -839,12 +839,12 @@ Footer Media Queries
         max-width: 48.2rem;
         padding: 1rem;
     }
-}
+} */
 
 @media screen and (min-width: 1400px) {
-    .cards-ofertas {
+    /* .cards-ofertas {
         width: 140rem;
-    }
+    } */
 
     .row3 .form {
         max-width: 140rem;

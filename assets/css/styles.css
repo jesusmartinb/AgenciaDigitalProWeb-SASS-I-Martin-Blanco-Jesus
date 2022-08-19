@@ -11215,6 +11215,33 @@ textarea.form-control-lg {
   font-style: italic;
 }
 
+/* Cards Oferta */
+@media (min-width: 768px) {
+  .cards-ofertas {
+    column-gap: 2rem;
+  }
+}
+@media (min-width: 1440px) {
+  .cards-ofertas {
+    width: 140rem;
+  }
+}
+
+.card-oferta {
+  border: 2px solid #000000;
+}
+.card-oferta ul li::before {
+  content: "❤ ";
+}
+@media (min-width: 768px) {
+  .card-oferta {
+    min-width: 34.4rem;
+    width: 49%;
+    max-width: 48.2rem;
+    padding: 1rem;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -11576,13 +11603,6 @@ p {
   background-position: top left;
 }
 
-#nuevo .hero {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%), url("https://cyberdietoterapia.com/images/background-talento.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top left;
-}
-
 @media (min-width: 1024px) {
   .cronology {
     min-width: 76.8rem;
@@ -11610,6 +11630,9 @@ p {
   }
 }
 
+.quieres-trabajar ul li::before {
+  content: "❤ ";
+}
 @media (min-width: 1024px) {
   .quieres-trabajar {
     padding-right: 20%;
@@ -11642,6 +11665,24 @@ p {
     margin-right: 29rem;
   }
 }
+#nuevo .hero {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%), url("https://cyberdietoterapia.com/images/background-talento.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+}
+@media (min-width: 1024px) {
+  #nuevo .image {
+    background-image: linear-gradient(transparent 0%, transparent 100%), url("https://cyberdietoterapia.com/images/img03.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+  }
+  #nuevo .image img {
+    visibility: hidden;
+  }
+}
+
 .footer {
   background-color: #000000;
   color: aliceblue;

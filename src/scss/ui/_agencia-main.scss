@@ -21,10 +21,6 @@
 	@include m.bgImage('https://cyberdietoterapia.com/images/background-equipo.jpg', $white-35);
 }
 
-#nuevo .hero {
-	@include m.bgImage('https://cyberdietoterapia.com/images/background-talento.jpg', $white-35);
-}
-
 .cronology {
 	@include media-breakpoint-up(lg) {
 		min-width: 76.8rem;;
@@ -50,6 +46,14 @@
 }
 
 .quieres-trabajar {
+	ul {
+		li {
+			&::before {
+				content: "❤ ";
+			}
+		}
+	}
+
 	@include media-breakpoint-up(lg) {
 		padding-right: 20%;
 	}
@@ -85,3 +89,20 @@
 			margin-right: 29rem;
 	}
 }
+
+#nuevo {
+	.hero {
+		@include m.bgImage('https://cyberdietoterapia.com/images/background-talento.jpg', $white-35);
+	}
+
+	@include media-breakpoint-up(lg) {
+		.image {
+			@include m.bgImage('https://cyberdietoterapia.com/images/img03.jpg', transparent);
+
+			img {
+				visibility: hidden;
+			}
+		}
+	}
+}
+

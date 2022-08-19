@@ -46,3 +46,33 @@
 .citation {
 	font-style: italic;
 }
+
+/* Cards Oferta */
+.cards-ofertas {
+	@include media-breakpoint-up(md) {
+		column-gap: $font-size-base;
+	}
+
+	@include media-breakpoint-up(xl) {
+		width: 140rem;
+	}
+}
+
+.card-oferta {
+	border: 2px solid $dark;
+
+	ul {
+		li {
+			&::before {
+				content: "❤ ";
+			}
+		}
+	}
+
+	@include media-breakpoint-up(md) {
+		min-width: 34.4rem;
+		width: 49%;
+		max-width: 48.2rem;
+		padding: 1rem;
+	}
+}
