@@ -11242,6 +11242,83 @@ textarea.form-control-lg {
   }
 }
 
+@media (min-width: 1024px) {
+  .row3 .form {
+    display: grid;
+  }
+}
+@media (min-width: 1440px) {
+  .row3 .form {
+    max-width: 140rem;
+  }
+}
+
+.form div {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+.form input,
+.form select,
+.form textarea {
+  font-size: 1.6rem;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
+@media (min-width: 425px) {
+  .fila input[type=submit] {
+    display: block;
+    width: 38.5rem;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1024px) {
+  .fila {
+    padding: 0 calc((100vw - 1004px) / 3);
+  }
+}
+@media (min-width: 1440px) {
+  .fila {
+    padding: 0 14.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .nom-tel,
+.mail-vacan,
+.nom-ape,
+.mail-tel {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+.nom-tel div,
+.mail-vacan div,
+.nom-ape div,
+.mail-tel div {
+  min-width: 34.4rem;
+  width: 49%;
+  max-width: 48.2rem;
+}
+
+@media (min-width: 1024px) {
+  #contacto .form p, #contacto .form ~ p {
+    padding-left: calc((100vw - 1004px) / 3);
+    margin: 2rem 0;
+  }
+}
+@media (min-width: 1024px) and (min-width: 1440px) {
+  #contacto .form {
+    max-width: 140rem;
+    margin: 0 auto;
+  }
+}
+
 * {
   box-sizing: border-box;
 }

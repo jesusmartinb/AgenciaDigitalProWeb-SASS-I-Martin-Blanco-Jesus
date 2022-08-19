@@ -841,18 +841,18 @@ Footer Media Queries
     }
 } */
 
-@media screen and (min-width: 1400px) {
+/* @media screen and (min-width: 1400px) {
     /* .cards-ofertas {
         width: 140rem;
-    } */
+    }
 
     .row3 .form {
         max-width: 140rem;
     }
-}
+} */
 
 /* Formularios */
-.form div {
+/* .form div {
     margin-bottom: 2rem;
     width: 100%;
 }
@@ -923,7 +923,7 @@ label {
         max-width: 140rem;
         margin: 0 auto;
     }
-}
+} */
 
 /* Fin Formularios */
 
