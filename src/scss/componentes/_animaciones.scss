@@ -47,13 +47,11 @@
 }
 
 /* Animación de degradado */
-.planes,
-#contacto {
-	.row {
-    background: linear-gradient(45deg, #007d81, #0075b9, #00ff5e);
-    animation: AnimacionDegradado 10s ease-in-out infinite;
-    background-size: 600% 600%;
-	}
+.planes:not(.trans),
+#contacto .row {
+	background: linear-gradient(45deg, #007d81, #0075b9, #00ff5e);
+	animation: AnimacionDegradado 10s ease-in-out infinite;
+	background-size: 600% 600%;
 }
 
 @keyframes AnimacionDegradado {

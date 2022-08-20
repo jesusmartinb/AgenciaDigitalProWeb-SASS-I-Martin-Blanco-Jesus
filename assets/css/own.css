@@ -1224,11 +1224,11 @@ label {
 /* Fin Proyectos */
 
 /* Planes */
-#planes .hero {
+/* #planes .hero {
     background-image: url(https://cyberdietoterapia.com/images/background-planes.jpg);
-}
+} */
 
-.cards-planes {
+/* .cards-planes {
     margin-top: 5rem;
 }
 
@@ -1328,7 +1328,7 @@ label {
     font-size: 6rem;
 }
 
-/* Planes Media Queries */
+/* Planes Media Queries 
 @media screen and (min-width: 992px) {
     .card-planes {
         min-width: 33rem;
@@ -1364,7 +1364,7 @@ label {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
     }
-}
+} */
 
 /* Fin Planes */
 
