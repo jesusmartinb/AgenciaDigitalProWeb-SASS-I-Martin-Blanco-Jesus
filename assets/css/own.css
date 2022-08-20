@@ -1076,7 +1076,7 @@ label {
 /* Fin Servicios */
 
 /* Proyectos */
-.gallery-item {
+/* .gallery-item {
     position: relative;
     display: inline-block;
     margin-bottom: 4rem;
@@ -1084,9 +1084,11 @@ label {
     vertical-align: top;
     border-radius: 5px;
     box-shadow: 3px 3px 6px #000;
+    opacity: 1;
+    transition: opacity .3s;
 }
 
-.gallery-item:hover .gallery-item__image {
+.gallery-item:hover {
     opacity: .6;
 }
 
@@ -1107,8 +1109,6 @@ label {
     height: auto;
     border: none;
     border-radius: 5px;
-    opacity: 1;
-    transition: opacity .3s;
 }
 
 .gallery-item__body {
@@ -1219,7 +1219,7 @@ label {
     .gallery-item .gallery-item__image {
         visibility: hidden;
     }
-}
+} */
 
 /* Fin Proyectos */
 

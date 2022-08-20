@@ -11199,7 +11199,7 @@ textarea.form-control-lg {
 }
 
 .card-content {
-  min-height: 38rem;
+  min-height: 41rem;
 }
 
 #testimonios .card .image {
@@ -11910,6 +11910,142 @@ hr {
 @media screen and (min-width: 1920px) {
   #servicios .main {
     margin: 10rem 0;
+  }
+}
+
+.gallery-item {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 4rem;
+  overflow: hidden;
+  vertical-align: top;
+  border-radius: 5px;
+  box-shadow: 3px 3px 6px #000000;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.gallery-item:hover .gallery-item__image {
+  opacity: 0.6;
+}
+.gallery-item:hover .gallery-item__body {
+  bottom: 0;
+}
+@media (min-width: 768px) {
+  .gallery-item .gallery-item__image {
+    visibility: hidden;
+  }
+}
+
+.gallery-item__media {
+  top: 0;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+}
+
+.gallery-item__image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border: none;
+  border-radius: 5px;
+}
+
+.gallery-item__body {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+  transition: all 0.5s ease 0s;
+}
+
+.gallery-item__copy {
+  margin: 0.3rem 0;
+  padding-left: 1rem;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.gallery-item__subtitle {
+  margin: 0.3rem 0;
+  padding: 0 10px 5px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.8rem;
+  text-align: left;
+}
+
+.gallery-item__title {
+  margin: 0.3rem 0;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.gallery-item__title-link {
+  margin: 0.3rem 0;
+  display: block;
+  padding: 1rem 2rem 1rem 1rem;
+  font-size: 2.4rem;
+  color: #ffffff;
+  text-align: left;
+  text-decoration: none;
+}
+.gallery-item__title-link:hover {
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  #proyectos .gallery-container {
+    grid-template-areas: "hijo1 hijo1 hijo2" "hijo1 hijo1 hijo3" "hijo5 hijo6 hijo3" "hijo5 hijo6 hijo4" "hijo7 hijo7 hijo7";
+  }
+  #proyectos .hijo1 {
+    grid-area: hijo1;
+    background-image: linear-gradient(transparent 0%, transparent 100%), url("https://cyberdietoterapia.com/images/galeria1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+  }
+  #proyectos .hijo2 {
+    grid-area: hijo2;
+    background-image: linear-gradient(transparent 0%, transparent 100%), url("https://cyberdietoterapia.com/images/galeria2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+  }
+  #proyectos .hijo3 {
+    grid-area: hijo3;
+    background-image: linear-gradient(transparent 0%, transparent 100%), url("https://cyberdietoterapia.com/images/galeria3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+  }
+  #proyectos .hijo4 {
+    grid-area: hijo4;
+    background-image: linear-gradient(transparent 0%, transparent 100%), url("https://cyberdietoterapia.com/images/galeria4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+  }
+  #proyectos .hijo5 {
+    grid-area: hijo5;
+    background-image: linear-gradient(transparent 0%, transparent 100%), url("https://cyberdietoterapia.com/images/galeria5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+  }
+  #proyectos .hijo6 {
+    grid-area: hijo6;
+    background-image: linear-gradient(transparent 0%, transparent 100%), url("https://cyberdietoterapia.com/images/galeria6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+  }
+  #proyectos .hijo7 {
+    grid-area: hijo7;
+    background-image: linear-gradient(transparent 0%, transparent 100%), url("https://cyberdietoterapia.com/images/galeria7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
   }
 }
 
