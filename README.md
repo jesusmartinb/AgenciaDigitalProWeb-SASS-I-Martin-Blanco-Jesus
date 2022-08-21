@@ -3,13 +3,17 @@ Trabajo del Curso de Desarrollo Web del Programa Carrera de Desarrollo Full Stac
 
 Se incluye la carpeta Desafio_SASS-I con las capturas de las instrucciones Git utilizadas.
 
-Para la correcta compilación se utiliza el script "sass --watch src/scss:assets/css".
+Para la correcta compilación se utiliza el script: 
+	"sass --watch src/scss:assets/css".
 
-Compilación con "npm run compilar:sass".
+Compilación con: 
+	"npm run compilar:sass".
 
-Para la purga de CSS se utiliza el script "purgecss --css assets/css/styles.css --content index.html pages/**/*.html assets/js/**/*.js --output assets/css/main.css".
+Para la purga de CSS se utiliza el script: 
+	"purgecss --css assets/css/styles.css --content index.html pages/**/*.html assets/js/**/*.js --output assets/css/main.css".
 
-Purgaq de CSS con "npm run build:sass".
+Purga de CSS con: 
+"npm run build:sass".
 
 Url GitHub: https://github.com/jesusmartinb/AgenciaDigitalProWeb-SASS-I-Martin-Blanco-Jesus
 
