@@ -12204,6 +12204,21 @@ hr {
   }
 }
 
+#contacto .hero {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%), url("https://cyberdietoterapia.com/images/background-contacto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+}
+
+textarea {
+  height: 20rem;
+}
+
+.required {
+  color: #ff0000;
+}
+
 .footer {
   background-color: #000000;
   color: aliceblue;
