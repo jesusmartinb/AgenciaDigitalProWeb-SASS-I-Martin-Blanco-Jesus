@@ -10,7 +10,7 @@ Compilación con:
 	"npm run compilar:sass".
 
 Para la purga de CSS se utiliza el script: 
-	"purgecss --css assets/css/styles.css --content index.html pages/**/*.html assets/js/**/*.js --output assets/css/main.css".
+	"`purgecss --css assets/css/styles.css --content index.html pages/**/*.html assets/js/**/*.js --output assets/css/main.css`".
 
 Purga de CSS con: 
 "npm run build:sass".
